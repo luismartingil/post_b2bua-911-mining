@@ -24,3 +24,16 @@ hadoop dfs -ls /bigdata13/input
 # Cat the given path from the HDFS.
 hadoop dfs -cat /bigdata13/output/part-00000
 ```
+
+### Hadoop diagrams
+
+![](img/map_reduce_buckets_small.png)
+![](img/map_reduce_single_small.png)
+![](img/map_reduce_cluster_small.png)
+
+
+### Result graphs
+
+![](img/dayow.png)
+![](img/eday.png)
+![](img/hourod.png)
