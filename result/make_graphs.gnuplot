@@ -92,13 +92,13 @@ set key outside box width 2 height 2 enhanced spacing 2
 set grid lc rgb grid_color
 
 # set terminal postscript landscape
-set term pngcairo size 1000,500 enhanced font "Helvetica,20"
+set term pngcairo size 720,480 enhanced font "Helvetica,20"
 #set term postscript
 
 # Generating graph
 unset key
 # set size 1.2,1
-set output "dayow.png"
+set output "../img/dayow.png"
 set title "2. Calls for the given days of the week"
 set xlabel "Day of the week"
 set ylabel "Calls"
@@ -108,7 +108,7 @@ unset output
 
 # Generating graph
 unset key
-set output "hourod.png"
+set output "../img/hourod.png"
 # set size 1.2,1
 set title "3. Calls for the given hours of the day"
 set xlabel "Hour of the day"
@@ -119,7 +119,7 @@ unset output
 
 # Generating graph
 unset key
-set output "eday.png"
+set output "../img/eday.png"
 # set size 1.8,1
 set title "1. Overall days"
 set xlabel "Date (Sep 1st 2013 - Jan 1st 2014)"
