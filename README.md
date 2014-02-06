@@ -1,4 +1,4 @@
-# "Mining 911 Emergency calls using Apache Hadoop"
+# Mining 911 Emergency calls using Apache Hadoop
 - Post files
 - Author: luismartingil 
 - Website: www.luismartingil.com
